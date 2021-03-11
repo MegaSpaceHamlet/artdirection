@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -123,7 +123,7 @@
           sizes="(max-width: 400px) 120px, 400px" src="firefox_logo-only_RGB_400.png" alt="Firefox Logo leading to link">
         </a>
         <a href="https://www.mozilla.org/">
-          <img srcset="mozilla-dinosaur-head_120.png 120w, mozilla-dinosaur-head_400.png 400w" sizes="(max-width: 400px) 120px, 400px" src="mozilla-dinosaur-head_400.png" alt="Art Directional Mozilla Dinosaur Head Link">
+          <img srcset="mozilla-dinosaur-head_120.png 120w, mozilla-dinosaur-head_400.png 400w" sizes="(max-width: 400px) 120px, 400px" src="mozilla-dinosaur-head_400.png" alt="Arti Directional Mozilla Dinosaur Head Link">
         </a>
         <a href="https://addons.mozilla.org/">
           <img srcset="firefox-addons_120.jpg 120w, firefox-addons_400.jpg 400w" sizes="(max-width: 400px) 120px, 400px" src="firefox-addons_400.jpg" alt="Addons for Firefox">
@@ -136,11 +136,6 @@
 
       <div class="red-panda">
         <!-- insert picture element -->
-        <picture>
-            <source media="(max-width: 600px)" srcset="red-panda_600.jpg">
-            <source media="(min-width: 601px)" srcset="red-panda_1200.jpg">
-                <img src="red-panda_1200.jpg" alt="Red Panda">
-        </picture>
       </div>
 
     </main>
